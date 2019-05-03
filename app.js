@@ -1,5 +1,6 @@
 const http = require('http');
-const hostname = 'leia.cs.edu';
+//const hostname = 'leia.cs.edu';
+const hostname = 'localhost';
 const port = 3010;
 
 var friends = require("./friends.json"); // Once for all times
@@ -15,7 +16,7 @@ const server = http.createServer((request, response) => {
         '               <meta http-equiv="X-UA-Compatible" content="IE=edge"> \n' +
         '               <meta name="viewport" content="width=device-width, initial-scale=1"> \n' +
         '               <meta name="description" content="Home Page"> \n' +
-        '               <meta name="author" content="Carlos Arias"> \n' +
+        '               <meta name="author" content="Sam Harlan"> \n' +
         '               <title>Netcentric Computing Home Page</title> \n' +
         '               <!-- Bootstrap core CSS --> \n' +
 		'				<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">\n' +
